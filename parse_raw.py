@@ -33,7 +33,7 @@ with fiona.open(fn) as uk_gis:
                         + str(objectid) + "\n")
 
             centroid = max_polygon.centroid
-            print(str(objectid) + "," + str(area_name) + "," + \
+            print(str(objectid) + "," + "\"" + str(area_name) + "\"" + "," + \
                     str(max_polygon.area) + "," + \
                     str(centroid.x) + "," + str(centroid.y)) 
 
@@ -41,6 +41,6 @@ with fiona.open(fn) as uk_gis:
             p = Polygon(shapely.geometry.shape(geom))
 
             centroid = p.centroid
-            print(str(objectid) + "," + str(area_name) + "," + \
+            print(str(objectid) + "," + "\"" + str(area_name) + "\"" + "," + \
                     str(p.area) + "," + \
                     str(centroid.x) + "," + str(centroid.y))
