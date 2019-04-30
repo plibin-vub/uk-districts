@@ -9,5 +9,5 @@
 * For the England/Wales dataset, the relevant tab of the raw census data in XLS file format, was exported to england_wales.census.csv. 
 * For the Scotland dataset, the relevant tab of the raw census data in XLS file format, was exported to scotland.census.csv.
 * A copy of the raw dataset is stored at Pieter's Google Drive: https://drive.google.com/open?id=1QC0459uRoO9sUF1hlDJtSPj8ip4FL5VD
-* From these CSV files, a dataset with age information per district was compiled: england_wales.districts.census.csv and scotland.districts.census.csv.
+* From these CSV files, a dataset with age information per district was compiled: england_wales.districts.census.csv and scotland.districts.census.csv. These 2 CSV files were merged in to one CSV covering the entire UK: uk.districts.census.csv.
  
