@@ -15,5 +15,5 @@ if not all(commute.index == commute.columns):
 np.fill_diagonal(commute.values, 0)
 
 total = commute.sum(axis=1)
-total = total.reset_index().rename(columns={'index':'district', 0:'total'})
+total = total.reset_index().rename(columns={'index':'district', 0:'total_outgoing'})
 total.to_csv(sys.stdout, index=False)
