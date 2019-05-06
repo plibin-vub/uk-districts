@@ -6,8 +6,9 @@
 * uk.districts.gis.csv is generated from the shape file using the parse_raw.py script
 
 ##Commute data
-* downloaded from https://www.nomisweb.co.uk, 2011 census data
-* census data on the district level was only available for England and Wales, a commute matrix was stored in england_wales.commute.csv
+* For England/Wales, census data was available on the district level (2011), and the data was downloaded from https://www.nomisweb.co.uk
+* TODO: include commute to Scotland
+* a commute matrix was stored in england_wales.commute.csv
 * to compute the outgoing commuters per district, use the script compute_outgoing_commute.py
 
 ##Census data
