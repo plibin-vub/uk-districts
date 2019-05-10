@@ -9,7 +9,7 @@
 * Census data was available on the district level (2011), for the entire UK, from the dataset WU03UK at https://www.nomisweb.co.uk
 * A query to obtain the required fields from WU03UK, was formulated after personal communication with the support service of NOMIS (commute/NOMIS-commute-emails.pdf), the description of the query is in commute/query.txt
 * a commute matrix was stored in uk.matrix.csv
-* to compute the outgoing commuters per district, use the script compute_outgoing_commute.py
+* to compute the outgoing commuters per district, use the script commute/compute_outgoing_commute.py
 
 ##Census data
 * For the England/Wales dataset, the relevant tab of the raw census data in XLS file format, was exported to england_wales.census.csv. 
