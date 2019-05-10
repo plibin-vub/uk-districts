@@ -1,0 +1,6 @@
+I performed a query with the following parameters:
+- “Method of Travel To Work”: "All categories: Method of travel to work (2001 specification)”
+- “Place of work”: Combobox “All” for the "2011 census merged local authority districts”
+- “Place of work”: Manually ticked the items in "at home, offshore, not fixed or outside UK" (Note that selecting All, instead of manually ticking the elements, dit NOT work)
+- “Place of work”: all other comboboxes “None”
+- "Usual Residence”: Combobox “All” for the "2011 census merged local authority districts”, all other comboboxes “None”
