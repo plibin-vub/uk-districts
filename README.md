@@ -26,3 +26,6 @@ The Scotish census dataset contains age-specific data for the sub-regions that m
 scot = pd.read_csv("scotland.census.csv")
 districts = scot.groupby("Council Area").sum()
 districts.to_csv("scotland.districts.census.csv")
+
+##UK census data per district
+csvstack scotland.districts.census.csv england_wales.districts.census.csv > uk.districts.census.csv
