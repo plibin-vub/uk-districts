@@ -36,3 +36,7 @@ districts.to_csv("scotland.districts.census.csv")
 
 ##GB census data per district
 csvstack scotland.districts.census.csv england_wales.districts.census.csv > gb.districts.census.csv
+
+##Differences between census and commute data structure
+* In the commute dataset, Westminster and City of London is merged
+* In the commute dataset, there is no district "Isles of Scilly" 
