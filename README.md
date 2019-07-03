@@ -19,10 +19,13 @@
 * to compute the outgoing commuters per district, use the script commute/compute_outgoing_commute.py
 
 ##Census data
+* All data is in the census directory, which has a 2011 and 2017 sub-directory.
 * For the England/Wales dataset, the relevant tab of the raw census data in XLS file format, was exported to england_wales.census.csv. 
 * For the Scotland dataset, the relevant tab of the raw census data in XLS file format, was exported to scotland.census.csv.
-* A copy of the raw dataset is stored at Pieter's Google Drive: https://drive.google.com/open?id=1QC0459uRoO9sUF1hlDJtSPj8ip4FL5VD
 * From these CSV files, a dataset with age information per district was compiled: england_wales.districts.census.csv and scotland.districts.census.csv. (Details on how these files were constructed can be find below). 
+* The English/Welsh data was downloaded from: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/middlesuperoutputareamidyearpopulationestimates
+* The Scotish data was downloaded from: https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/mid-year-population-estimates/population-estimates-time-series-data
+* A copy of the raw dataset is stored in census/2011/raw and census/2017/raw.
 
 ##English/Welsh census data to districts
 The English/Welsh census data contains age-specific data for the sub-regions, and a summary for the district. To construct england_wales.districts.census.csv, we can thus grep for these summary lines:
